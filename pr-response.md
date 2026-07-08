@@ -90,3 +90,7 @@ I verified by running git status to ensure there were no remaining conflicts and
     To test the features, you can run pytest tests/ to run the entire test suite, if you choose to run tests individually, you can run pytest tests/test_watchlist.py or pytest tests/test_collection.py to run the tests for the watchlist and collection features, respectively. 
     
     You can also manually test the endpoints using a tool like Postman or curl. For example, you can use the GET /watchlist/<user_id> endpoint to view a user's watchlist, the POST /watchlist/<user_id>/add endpoint to add a movie to the watchlist, and the DELETE /watchlist/<user_id>/remove endpoint to remove a movie from the watchlist. You can also test the visibility settings by using the PUT /watchlist/<user_id>/visibility endpoint to change the visibility of the watchlist.
+
+
+## Commit History
+![Commit History](commit_history.png)
