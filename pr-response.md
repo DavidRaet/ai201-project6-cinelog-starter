@@ -78,3 +78,13 @@ I verified by running git status to ensure there were no remaining conflicts and
 
 ## PR Description
 <!-- Written at the end — feature overview, design decisions, manual testing steps -->
+
+    The watchlist feature allows users to add movies to a personal watchlist, view their watchlist, and manage the visibility of their watchlist. Additionally, any duplicate entries are prevented from being added to the watchlist, ensuring that each movie appears only once. 
+    
+    Default visibility is set to public, allowing users to share their watchlists with others. Although users who prefer privacy may find it inconvenient to have to change the visibility setting to private once creating the watchlist, the benefits of social engagement and discoverability outweigh this tradeoff. 
+    
+    The watchlist is also sorted by date added in descending order by default, allowing users to see the most recently added movies at the top of their watchlist. This sorting order aligns with common user expectations and behaviors when managing lists. 
+
+    To test the features, you can run pytest tests/ to run the entire test suite, if you choose to run tests individually, you can run pytest tests/test_watchlist.py or pytest tests/test_collection.py to run the tests for the watchlist and collection features, respectively. 
+    
+    You can also manually test the endpoints using a tool like Postman or curl. For example, you can use the GET /watchlist/<user_id> endpoint to view a user's watchlist, the POST /watchlist/<user_id>/add endpoint to add a movie to the watchlist, and the DELETE /watchlist/<user_id>/remove endpoint to remove a movie from the watchlist. You can also test the visibility settings by using the PUT /watchlist/<user_id>/visibility endpoint to change the visibility of the watchlist.
