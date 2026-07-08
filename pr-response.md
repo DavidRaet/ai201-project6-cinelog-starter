@@ -48,9 +48,18 @@ Having a public default visibility allows users to share their watchlists with f
 A public default visibility may also require the user to take an extra step to make their watchlist private if they prefer not to share it, which could be seen as a minor inconvenience. However, I believe the benefits of social engagement and discoverability outweigh this tradeoff.
 
 ## Comment 5 — Sort order
+
 **My position:**
+
+I believe that the watchlist should be sorted by date added in descending order by default.
+
 **Reasoning:**
+
+As per Jamila's comment, sorting by date added in descending order allows users to see the most recently added movies at the top of their watchlist. This is particularly useful for users who frequently update their watchlists and want to quickly access their latest additions. 
+
 **Engagement with reviewer's point:**
+
+I agree with Jamila's point about the importance of seeing the most recently added movies first. From a user experience perspective, this sorting order aligns with common user expectations and behaviors when managing lists.  
 
 ## Comment 6 — Rebase
 **What conflicted:**
