@@ -22,8 +22,16 @@ I added a check in the add_to_watchlist function to prevent duplicate entries fr
 I verified that the deduplication logic works by writing a test case (this will added upon addressing comment 3) that attempts to add a duplicate movie ID to the watchlist and checks that the AlreadyInCollectionError exception is raised. 
 
 ## Comment 3 — Missing test
+
 **What I did:**
+
+I added another test file, tests/test_watchlist.py, to cover the deduplication logic in the add_to_watchlist function along with similar tests seen in tests/test_collection.py. The test cases include adding a movie to the watchlist, attempting to add a duplicate movie, and adding a non-existent movie ID, 
+
 **How I verified:**
+
+I verified that the new test cases pass by running the test suite and ensuring that all tests in tests/test_watchlist.py pass successfully and that they don't interfere with existing tests in tests/test_collection.py. 
+
+
 
 ## Comment 4 — Default visibility
 **My position:**
