@@ -63,8 +63,18 @@ I agree with Jamila's point about the importance of seeing the most recently add
 
 ## Comment 6 — Rebase
 **What conflicted:**
+
+- The .gitignore file had conflicts, but from the branch I was rebasing onto, the .gitignore file had all the necessary entries, so I kept the version from the branch I was rebasing onto.
+
+- The services/watchlist_service.py and routes/watchlist_routes.py file had conflicts because of the naming change from save_to_watchlist to add_to_watchlist along with any references to this function throughout the file. 
+
 **How I resolved it:**
+
+I resolved the conflicts by keeping the version of the .gitignore file from the branch I was rebasing onto, as it contained all the necessary entries. For the services/watchlist_service.py and routes/watchlist_routes.py files, I manually merged the changes by ensuring that all references to save_to_watchlist were updated to add_to_watchlist.
+
 **How I verified no conflict remains:**
+
+I verified by running git status to ensure there were no remaining conflicts and that the working directory was clean. I also ran the test suite to confirm that all tests passed successfully, indicating that the codebase was in a stable state after resolving the conflicts. If running git rebase --continue introduced any new conflicts, I would repeat the conflict resolution process until the rebase was complete and all conflicts were resolved.
 
 ## PR Description
 <!-- Written at the end — feature overview, design decisions, manual testing steps -->
