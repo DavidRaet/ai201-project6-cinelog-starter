@@ -3,6 +3,8 @@
 ## AI Usage
 <!-- Fill in at the end — how you used AI tools during this project -->
 
+The use of AI tools was limited to summarizing the functionality of any existing code that I was unfamiliar with, file summaries, and explanations regarding test structure. Due to nature of this project, AI tools were not used to generate any code or tests, as I wanted to ensure that I exercised the skills that were being assessed in this project.
+
 ## Comment 1 — Rename
 **What I did:** 
 
