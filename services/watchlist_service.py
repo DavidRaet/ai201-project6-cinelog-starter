@@ -9,6 +9,7 @@ from models import Film, WatchlistEntry
 from services.collection_service import FilmNotFoundError
 from services.collection_service import AlreadyInCollectionError
 
+
 def add_to_watchlist(user_id, film_id):
     """
     Save a film to a user's watchlist.
